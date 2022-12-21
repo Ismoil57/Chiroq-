@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+}
+
+.btn-on{
+    background: rgba(255, 255, 255, 0.734);
+    border: solid 1px;
+    height: 200px;
+    width: 80px;
+    transition: 0.1s all ease;
+}
+
+.btn-on:focus{
+    background: rgba(205, 205, 205, 0.734);
+    box-shadow: black 0px 0px 30px -15px;
+
+}
+
+.btn-off{
+    background: rgba(255, 255, 255, 0.734);
+    border: solid 1px;
+    height: 200px;
+    width: 80px;
+    margin-left: 10px;
+    transition: 0.1s all ease;
+
+}
+
+.btn-off:focus{
+    background: rgba(205, 205, 205, 0.734);
+    box-shadow: rgb(0, 0, 0) 0px 0px 30px -15px;
+
+}
+
+.box {
+    width: 1536px;
+    height:  713px;
+    display: flex;
+    justify-content: center;
+}
+
+.room {
+    position: relative;
+    height:  705px;
+}
+
+
+.lamp1{
+    width: 40px;
+    position: absolute;
+    top: -25px;
+    right: 0px;
+    left: 799px;
+}
+
+.lamp2{
+    width: 35px;
+    position: absolute;
+    top: -22px;
+    right: 0px;
+    left: 888px;
+}
+
+.lamp3{
+    width: 50px;
+    position: absolute;
+    top: -50px;
+    right: 0px;
+    left: 835px;
+}
+
+.lamp4{
+    width: 50px;
+    position: absolute;
+    top: -50px;
+    right: 0px;
+    left: 702px;
+}
+
+.lamp5{
+    width: 50px;
+    position: absolute;
+    top: -15px;
+    right: 0px;
+    left: 750px;
+}
+
+
